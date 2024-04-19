@@ -8,6 +8,7 @@ import { FormProdutosComponent } from './form-produtos/form-produtos.component';
 import { FormsModule } from '@angular/forms';
 import { MoedaPipe } from './moeda.pipe';
 import { FiltroPesquisaPipe } from './filtro-pesquisa.pipe';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FiltroPesquisaPipe } from './filtro-pesquisa.pipe';
     TabelaProdutosComponent,
     FormProdutosComponent,
     MoedaPipe,
-    FiltroPesquisaPipe
+    FiltroPesquisaPipe,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

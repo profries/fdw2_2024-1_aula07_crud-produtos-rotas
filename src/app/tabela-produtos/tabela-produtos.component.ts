@@ -15,4 +15,8 @@ export class TabelaProdutosComponent {
   constructor(private produtoService: ProdutoService) {
     this.listaProdutos = this.produtoService.listar();
   }
+
+  deletar(id?:number) {
+    this.produtoService.deletar(id)
+  }
 }
